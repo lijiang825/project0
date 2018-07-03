@@ -1,0 +1,57 @@
+/*Font color of each section header*/
+
+h2
+{
+    font-family: calibri, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+}
+
+#top
+{
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+#middle
+{
+    font-family: calibri, sans-serif;
+    font-size: 24px;
+    color: green;
+}
+
+#bottom
+{
+    font-family: cambria, sans-serif;
+    font-size: 16px;
+}
+
+/*Selection*/
+
+p::selection
+{
+    color: white;
+    background-color: red;
+}
+
+/*Grid*/
+
+.grid
+{
+    background-color: green;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item
+{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+}
